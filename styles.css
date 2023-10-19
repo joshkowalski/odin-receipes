@@ -5,6 +5,7 @@
 h1 {
     text-align: center;
     color: black;
+    font-size: 50px;
 }
 
 .home {
@@ -17,7 +18,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     height: auto;
-    width: 400px;
+    width: 300px;
 }
 
 .book-logo {
@@ -35,4 +36,20 @@ img {
 
 a:hover {
     color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.recipe-card:hover {
+    box-shadow: 5px 5px 50px black;
+}
+
+h4 {
+    text-align: center;
+    color: black;
 }
